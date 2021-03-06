@@ -1,0 +1,184 @@
+/* navbar */
+.navbar {
+  position: relative;
+  z-index: 1;
+}
+
+.navbar-brand {
+  font-family: Viga;
+  font-size: 32px;
+  color: black;
+}
+
+.title {
+  font-family: Viga;
+  text-align: center;
+}
+
+.jam {
+  color: gray;
+}
+
+.awal {
+  font-family: Viga;
+  font-size: 20px;
+  margin-top: 50px;
+  text-align: justify;
+}
+
+.isi {
+  font-family: Viga;
+  font-size: 15px;
+  text-align: justify;
+}
+
+.section {
+  text-align: center;
+}
+
+/* jumbotron */
+.jumbotron {
+  background-image: url(img/cover.jpg);
+  background-size: cover;
+  height: 540px;
+  position: relative;
+}
+
+.navbar-brand span {
+  color: crimson;
+}
+
+.jumbotron .container {
+  z-index: 1;
+  position: relative;
+}
+
+.jumbotron::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 80%;
+  position: absolute;
+  bottom: 0;
+}
+
+/* info panel */
+.info-panel {
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 12px;
+  margin-top: -100px;
+  background-color: white;
+  padding: 30px;
+}
+.info-panel img {
+  width: 80px;
+  height: 80px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.info-panel h4 {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.info-panel p {
+  font-size: 14px;
+  color: #acacac;
+  margin-top: -5px;
+}
+
+/* working space */
+.workingspace {
+  margin: 50px;
+}
+
+.workingspace h3 {
+  font-size: 25px;
+  font-weight: 200;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+
+.workingspace h3 span {
+  font-weight: 500;
+}
+
+.workingspace p {
+  font-size: 18px;
+  color: #acacac;
+  font-weight: 200;
+  margin: 25px 0;
+}
+/* utility */
+.tombol {
+  text-transform: uppercase;
+  border-radius: 20px;
+}
+
+.jumbotron .display-4 {
+  color: white;
+
+  margin-top: 200px;
+  font-weight: 200;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.jumbotron .display-4 span {
+  font-weight: 500;
+}
+
+.caca {
+  border-radius: 10px !important;
+}
+/* Dektop Version */
+@media (min-width: 992px) {
+  .navbar-brand,
+  .nav-link {
+    color: white !important;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+  }
+
+  .section {
+    margin-top: 100px;
+    font-family: Viga;
+    text-align: center;
+  }
+
+  .caca {
+    border-radius: 20px !important;
+  }
+
+  .nav-link {
+    text-transform: uppercase;
+    margin-right: 30px;
+  }
+
+  .nav-link:hover::after {
+    content: "";
+    display: block;
+    border-bottom: 3px solid #0b63dc;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+  }
+
+  .jumbotron {
+    margin-top: -75px;
+    height: 640px;
+    border-bottom-right-radius: 1000px;
+  }
+
+  .jumbotron .display-4 {
+    font-size: 62px;
+  }
+
+  .workingspace {
+    text-align: left;
+  }
+}

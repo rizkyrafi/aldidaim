@@ -1,0 +1,42 @@
+/* navbar */
+.navbar {
+  position: relative;
+  z-index: 1;
+  background-color: black;
+}
+
+.navbar-brand {
+  font-family: Viga;
+  font-size: 32px;
+  color: black;
+}
+
+.title {
+  font-family: Viga;
+  text-align: center;
+}
+
+.portopfolio .container .jah {
+  font-family: Viga;
+}
+
+section {
+  min-height: 420px;
+}
+
+.display-4 {
+  font-family: Viga;
+}
+
+.link {
+  width: 200px i !important;
+}
+
+/* * Dektop Version */
+@media (min-width: 992px) {
+  .navbar-brand,
+  .nav-link {
+    color: white !important;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+  }
+}
